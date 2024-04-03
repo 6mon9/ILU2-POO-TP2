@@ -40,7 +40,7 @@ public class BoundaryPrendreEtal {
 		if (numEtal != -1) {
 			System.out.println("Le vendeur "
 					+nomVendeur+ " s'est installé à l'étal n°"
-							+ numEtal+".\n");
+							+ (numEtal)+".\n");
 		}
 	}
 }

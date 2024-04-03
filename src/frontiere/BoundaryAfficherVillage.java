@@ -26,8 +26,7 @@ public class BoundaryAfficherVillage {
 				System.out.println("- " + gaulois);
 			}
 		} else {
-			System.out.println(
-					"Pour l'instant, le chef est bien seul dans son village.");
+			System.out.println("Pour l'instant, le chef est bien seul dans son village.");
 		}
 	}
 
