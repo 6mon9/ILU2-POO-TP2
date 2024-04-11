@@ -178,15 +178,18 @@ public class TestControleursDesCas {
 		System.out.println("Obelix a 3 menhir sur son etal");
 		int nbProduitAcheter = controlAcheterProduit.acheterProduit("Obelix",
 				2);
-		System.out.println("Achat de " + nbProduitAcheter + " menhirs sur 2");
+		System.out.println("Achat de " + nbProduitAcheter + " menhirs sur 3");
 		nbProduitAcheter = controlAcheterProduit.acheterProduit("Obelix", 3);
 		System.out.println("Achat de " + nbProduitAcheter + " menhirs sur 3");
+		nbProduitAcheter = controlAcheterProduit.acheterProduit("Obelix", 3);
+		System.out.println("Achat de " + nbProduitAcheter + " menhirs sur 3");
+		
 		
 
 //		Sortie Console :
 //		Cas 8 : Acheter Produit
 //		Obelix a 3 menhir sur son etal
-//		Achat de 2 menhirs sur 2
+//		Achat de 2 menhirs sur 3
 //		Achat de 1 menhirs sur 3
 
 	}

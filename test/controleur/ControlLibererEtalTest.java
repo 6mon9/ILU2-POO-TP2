@@ -5,10 +5,18 @@ import static org.junit.jupiter.api.Assertions.*;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 
-class ControlLibererEtalTest {
+import personnages.Chef;
+import villagegaulois.Village;
 
+class ControlLibererEtalTest {
+	private Village village;
+	private Chef abraracoursix;
 	@BeforeEach
-	void setUp() throws Exception {
+	void setUp() {
+		System.out.println("Initialisation");
+		village = new Village("le village des irréuctibles",10,5);
+		abraracoursix = new Chef("Abraracoursix",10,village);
+		village.setChef(abraracoursix);
 	}
 
 	@Test
